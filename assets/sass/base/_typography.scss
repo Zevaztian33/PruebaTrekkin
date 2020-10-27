@@ -1,0 +1,86 @@
+nav{
+    li, button{
+        @extend %normal;
+    }
+    
+    button{
+        font-size: 16px;
+    }
+}
+
+header{
+    h1{
+        @extend %bold;
+        font-size: 60px;
+    }
+
+    p{
+        @extend %normal;
+    }
+}
+
+section{
+
+    h2{
+        @extend %bold;
+        font-size: 40px; 
+        text-align: center;
+    }
+
+    .seccion__uno{
+        .parrafo2{
+            h3{
+                @extend %bold;
+                font-size: 25px;
+            }
+
+            p{
+                @extend %normal;
+            }
+        }
+    }
+ 
+    .seccion__dos{
+        
+        .precios{
+            h4{
+                @extend %bold;
+                font-size: 40px;
+                color: white;
+                margin-top: 300px;
+                text-align: center;
+            }
+        }
+        .box{
+            .box1, .box2{
+                    
+                .ofertas{
+                    padding: 0 20px;
+
+                    .h5{
+                        @extend %normal;
+                        font-size: 20px;
+                    }
+    
+                    .h6{
+                        @extend %bold;
+                        font-size: 30px;
+                    }
+    
+                    ul, button{
+                        @extend %normal;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    p{
+        @extend %normal;
+        color: white;
+        font-size: 16px;
+    }
+}

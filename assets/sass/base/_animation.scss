@@ -1,0 +1,54 @@
+@keyframes barra_uno {
+    0% { y: 170px; }
+    100% { y: 70px;}
+}
+
+.barra1{
+    animation: barra_uno 3s ease infinite alternate;
+}
+
+@keyframes barra_dos {
+    0% { y: 170px; }
+    100% { y: 10px;}
+}
+
+.barra2{
+    animation: barra_dos 5s ease-in infinite alternate;
+}
+
+@keyframes barra_tres {
+    0% { y: 170px; }
+    100% { y: 50px;}
+}
+
+.barra3{
+    animation: barra_tres 2s ease-out infinite alternate;
+}
+
+@keyframes barra_cuatro {
+    0% { y: 170px; }
+    100% { y: 70px;}
+}
+
+.barra4{
+    animation: barra_cuatro 4s ease-in-out infinite alternate;
+}
+
+@keyframes barra_cinco {
+    0% { y: 170px; }
+    100% { y: 30px;}
+}
+
+.barra5{
+    animation: barra_cinco 2s ease infinite alternate;
+}
+
+@keyframes barra_seis {
+    0% { y: 170px; }
+    100% { y: 80px;}
+}
+
+.barra6{
+    animation: barra_seis 4s ease-out infinite alternate;
+}
+

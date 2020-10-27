@@ -1,0 +1,68 @@
+nav{
+    .boton1{
+        border: none;
+        background-color: white;
+        width: 120px;
+        height: 30px; 
+    }
+
+    .boton1:hover{
+        background-color: $coralhover;
+        color: black;
+    }
+
+    .boton1:focus{
+        background-color: $focus;
+        color: white;
+        outline: none;
+    }
+
+    .boton2{
+        border: none;
+        background-color: $celeste;
+        color: white;
+        width: 100px;
+        height: 30px;
+    }
+
+    .boton2:hover{
+        background-color: $celestehover;
+        color: black;
+    }
+
+    .boton2:focus{
+        background-color: $focus;
+        color: white;
+        outline: none;
+    }
+}
+
+section{
+    .box1:hover{
+        box-shadow : 10px 10px $focus;
+    }
+
+    .box2:hover{
+        box-shadow : 10px 10px $focus;
+    }
+
+    .boton3{
+        border: none;
+        background-color: $celeste;
+        color: white;
+        width: 260px;
+        height: 40px;
+    }
+
+    .boton3:hover{
+        background-color: $celestehover;
+        color: black;
+        
+    }
+
+    .boton3:focus{
+        background-color: $focus;
+        color: white;
+        outline: none;
+    }
+}

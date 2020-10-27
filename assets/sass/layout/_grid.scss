@@ -1,0 +1,335 @@
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    .navmenu{
+        grid-column: 1/2;
+    }
+
+    .navboton{
+        grid-column: 2/3;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    nav{
+        h2{
+            font-size: 60px;
+        }
+
+        #item1, #item2, #item3{
+            display: none;
+        }
+
+        .boton1, .boton2{
+            display: none;
+        }
+
+        .botontres{
+            font-size: 50px;
+            margin-right: 10px;
+        }
+    }
+
+    header{
+        .parrafo{
+            margin: 10px 40px;
+        }
+    }
+
+    section{
+        .seccion__uno{
+            flex-flow: row wrap;
+            justify-content: center;
+
+            .grafico{
+                width: 80%;
+            }
+            .parrafo2{
+                margin: 10px 20px;
+
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+
+        .seccion__dos{
+            height: 100%;
+
+            .box{
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+                align-content: center;
+    
+                    .box1, .box2{
+                        grid-column: 1/2;
+                        margin: 20px 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .legal{
+
+            p{
+                padding-left: 10px;
+            }   
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav{
+
+        h2{
+            font-size: 50px;
+        }
+
+        #item1, #item2, #item3{
+            display: none;
+        }
+
+        .boton1, .boton2{
+            display: none;
+        }
+
+        .botontres{
+            font-size: 50px;
+            margin-right: 50px;
+        }
+    }
+
+    header{
+        .parrafo{
+            width: 400px;
+            margin-left: 60px;
+        }
+    }
+
+    section{
+        .seccion__uno{
+            flex-flow: row wrap;
+            justify-content: center;
+
+            .grafico{
+                width: 80%;
+            }
+            
+            .parrafo2{
+                margin: 10px 20px;
+
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+
+        .seccion__dos{
+            height: 100%;
+
+            .box{
+                display: grid;
+                grid-template-columns: auto;
+                justify-content: center;
+                align-content: center;
+    
+                    .box1, .box2{
+                        grid-column: 1/2;
+                    margin: 20px 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .legal{
+
+            p{
+                padding-left: 20px;
+            }   
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav{
+        .botontres{
+            display: none;  
+        }
+    }
+
+    header{
+        .parrafo{
+            width: 600px;
+            margin-left: 60px;
+        }
+    }
+
+    section{
+        .seccion__uno{
+            flex-flow: row wrap;
+            justify-content: center;
+
+            .grafico{
+                width: 60%;  
+            }
+
+            .parrafo2{
+                margin: 10px 40px;
+
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+
+        .seccion__dos{
+            height: 100%;
+
+            .box{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+    
+                    .box1, .box2{
+                        margin: 0 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .legal{
+
+            p{
+                padding-left: 30px;
+            }   
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav{
+        .botontres{
+            display: none; 
+        }
+    }
+
+    header{
+        .parrafo{
+            width: 600px;
+            margin-left: 60px;
+        }
+    }
+
+    section{
+        .seccion__uno{
+            flex-flow: row wrap;
+            justify-content: space-around;
+            
+            .grafico{
+                width: 35%;
+                margin-left: auto;
+            }
+
+            .parrafo2{
+                margin-right: auto;
+                margin-left: 50px;
+                width: 35%; 
+            }
+        }
+
+        .seccion__dos{
+            height: 100%;
+
+            .box{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+    
+                    .box1, .box2{
+                        margin: 0 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .legal{
+
+            p{
+                padding-left: 40px;
+            }   
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    nav{
+        .botontres{
+            display: none;
+        }
+    }
+
+    header{
+        .parrafo{
+            position: absolute;
+            width: 500px;
+            margin-left: 60px;
+        }
+    }
+
+    section{
+        .seccion__uno{
+            flex-flow: row wrap;
+            
+            
+            .grafico{
+                width: 35%;
+                margin-left: auto;
+            }
+            .parrafo2{
+                margin-right: auto;
+                margin-left: 50px;
+                margin-top: 50px;
+                width: 35%;  
+            }
+        }
+
+        .seccion__dos{
+            height: 100%;
+
+            .box{
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: center;
+    
+                    .box1, .box2{
+                        margin: 0 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        .legal{
+
+            p{
+                padding-left: 50px;
+            }   
+        }
+    }
+}

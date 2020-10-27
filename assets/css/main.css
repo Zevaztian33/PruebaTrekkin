@@ -1,0 +1,544 @@
+/*COLORES BASE*/
+/*TIPOGRAFIA*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/abstract\/_variables\.scss}line{font-family:\0000310}}
+header h1, section h2, section .seccion__uno .parrafo2 h3, section .seccion__dos .precios h4, section .seccion__dos .box .box1 .ofertas .h6, section .seccion__dos .box .box2 .ofertas .h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/abstract\/_variables\.scss}line{font-family:\0000315}}
+nav li, nav button, header p, section .seccion__uno .parrafo2 p, section .seccion__dos .box .box1 .ofertas .h5, section .seccion__dos .box .box2 .ofertas .h5, section .seccion__dos .box .box1 .ofertas ul, section .seccion__dos .box .box1 .ofertas button, section .seccion__dos .box .box2 .ofertas ul, section .seccion__dos .box .box2 .ofertas button, footer p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+@-webkit-keyframes barra_uno {
+  0% {
+    y: 170px; }
+  100% {
+    y: 70px; } }
+
+@keyframes barra_uno {
+  0% {
+    y: 170px; }
+  100% {
+    y: 70px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\000036}}
+.barra1 {
+  -webkit-animation: barra_uno 3s ease infinite alternate;
+          animation: barra_uno 3s ease infinite alternate; }
+
+@-webkit-keyframes barra_dos {
+  0% {
+    y: 170px; }
+  100% {
+    y: 10px; } }
+
+@keyframes barra_dos {
+  0% {
+    y: 170px; }
+  100% {
+    y: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\0000315}}
+.barra2 {
+  -webkit-animation: barra_dos 5s ease-in infinite alternate;
+          animation: barra_dos 5s ease-in infinite alternate; }
+
+@-webkit-keyframes barra_tres {
+  0% {
+    y: 170px; }
+  100% {
+    y: 50px; } }
+
+@keyframes barra_tres {
+  0% {
+    y: 170px; }
+  100% {
+    y: 50px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\0000324}}
+.barra3 {
+  -webkit-animation: barra_tres 2s ease-out infinite alternate;
+          animation: barra_tres 2s ease-out infinite alternate; }
+
+@-webkit-keyframes barra_cuatro {
+  0% {
+    y: 170px; }
+  100% {
+    y: 70px; } }
+
+@keyframes barra_cuatro {
+  0% {
+    y: 170px; }
+  100% {
+    y: 70px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\0000333}}
+.barra4 {
+  -webkit-animation: barra_cuatro 4s ease-in-out infinite alternate;
+          animation: barra_cuatro 4s ease-in-out infinite alternate; }
+
+@-webkit-keyframes barra_cinco {
+  0% {
+    y: 170px; }
+  100% {
+    y: 30px; } }
+
+@keyframes barra_cinco {
+  0% {
+    y: 170px; }
+  100% {
+    y: 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\0000342}}
+.barra5 {
+  -webkit-animation: barra_cinco 2s ease infinite alternate;
+          animation: barra_cinco 2s ease infinite alternate; }
+
+@-webkit-keyframes barra_seis {
+  0% {
+    y: 170px; }
+  100% {
+    y: 80px; } }
+
+@keyframes barra_seis {
+  0% {
+    y: 170px; }
+  100% {
+    y: 80px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_animation\.scss}line{font-family:\0000351}}
+.barra6 {
+  -webkit-animation: barra_seis 4s ease-out infinite alternate;
+          animation: barra_seis 4s ease-out infinite alternate; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\000036}}
+nav button {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000312}}
+header h1 {
+  font-size: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000324}}
+section h2 {
+  font-size: 40px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000332}}
+section .seccion__uno .parrafo2 h3 {
+  font-size: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000346}}
+section .seccion__dos .precios h4 {
+  font-size: 40px;
+  color: white;
+  margin-top: 300px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000357}}
+section .seccion__dos .box .box1 .ofertas, section .seccion__dos .box .box2 .ofertas {
+  padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000360}}
+  section .seccion__dos .box .box1 .ofertas .h5, section .seccion__dos .box .box2 .ofertas .h5 {
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000365}}
+  section .seccion__dos .box .box1 .ofertas .h6, section .seccion__dos .box .box2 .ofertas .h6 {
+    font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
+  section .seccion__dos .box .box1 .ofertas ul, section .seccion__dos .box .box1 .ofertas button, section .seccion__dos .box .box2 .ofertas ul, section .seccion__dos .box .box2 .ofertas button {
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000381}}
+footer p {
+  color: white;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000031}}
+nav {
+  display: grid;
+  grid-template-columns: auto auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000035}}
+  nav .navmenu {
+    grid-column: 1/2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000039}}
+  nav .navboton {
+    grid-column: 2/3; }
+
+@media (max-width: 575.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000317}}
+  nav h2 {
+    font-size: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000321}}
+  nav #item1, nav #item2, nav #item3 {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000325}}
+  nav .boton1, nav .boton2 {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000329}}
+  nav .botontres {
+    font-size: 50px;
+    margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000336}}
+  header .parrafo {
+    margin: 10px 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000342}}
+  section .seccion__uno {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000346}}
+    section .seccion__uno .grafico {
+      width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000349}}
+    section .seccion__uno .parrafo2 {
+      margin: 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000352}}
+      section .seccion__uno .parrafo2 h3 {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000358}}
+  section .seccion__dos {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000361}}
+    section .seccion__dos .box {
+      display: grid;
+      grid-template-columns: auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000367}}
+      section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+        grid-column: 1/2;
+        margin: 20px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000379}}
+  footer .legal p {
+    padding-left: 10px; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000390}}
+  nav h2 {
+    font-size: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000394}}
+  nav #item1, nav #item2, nav #item3 {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000398}}
+  nav .boton1, nav .boton2 {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003102}}
+  nav .botontres {
+    font-size: 50px;
+    margin-right: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003109}}
+  header .parrafo {
+    width: 400px;
+    margin-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003116}}
+  section .seccion__uno {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003120}}
+    section .seccion__uno .grafico {
+      width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003124}}
+    section .seccion__uno .parrafo2 {
+      margin: 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003127}}
+      section .seccion__uno .parrafo2 h3 {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003133}}
+  section .seccion__dos {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003136}}
+    section .seccion__dos .box {
+      display: grid;
+      grid-template-columns: auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003142}}
+      section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+        grid-column: 1/2;
+        margin: 20px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003154}}
+  footer .legal p {
+    padding-left: 20px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003164}}
+  nav .botontres {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003170}}
+  header .parrafo {
+    width: 600px;
+    margin-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003177}}
+  section .seccion__uno {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003181}}
+    section .seccion__uno .grafico {
+      width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003185}}
+    section .seccion__uno .parrafo2 {
+      margin: 10px 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003188}}
+      section .seccion__uno .parrafo2 h3 {
+        text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003194}}
+  section .seccion__dos {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003197}}
+    section .seccion__dos .box {
+      display: grid;
+      grid-template-columns: auto auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003202}}
+      section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+        margin: 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003213}}
+  footer .legal p {
+    padding-left: 30px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003223}}
+  nav .botontres {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003229}}
+  header .parrafo {
+    width: 600px;
+    margin-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003236}}
+  section .seccion__uno {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003240}}
+    section .seccion__uno .grafico {
+      width: 35%;
+      margin-left: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003245}}
+    section .seccion__uno .parrafo2 {
+      margin-right: auto;
+      margin-left: 50px;
+      width: 35%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003252}}
+  section .seccion__dos {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003255}}
+    section .seccion__dos .box {
+      display: grid;
+      grid-template-columns: auto auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003260}}
+      section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+        margin: 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003271}}
+  footer .legal p {
+    padding-left: 40px; } }
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003281}}
+  nav .botontres {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003287}}
+  header .parrafo {
+    position: absolute;
+    width: 500px;
+    margin-left: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003295}}
+  section .seccion__uno {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003299}}
+    section .seccion__uno .grafico {
+      width: 35%;
+      margin-left: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003303}}
+    section .seccion__uno .parrafo2 {
+      margin-right: auto;
+      margin-left: 50px;
+      margin-top: 50px;
+      width: 35%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003311}}
+  section .seccion__dos {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003314}}
+    section .seccion__dos .box {
+      display: grid;
+      grid-template-columns: auto auto;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003319}}
+      section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+        margin: 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_grid\.scss}line{font-family:\00003330}}
+  footer .legal p {
+    padding-left: 50px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+nav {
+  padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\000035}}
+  nav .navmenu ul {
+    margin-right: auto;
+    margin-top: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\000039}}
+    nav .navmenu ul li {
+      display: inline-block;
+      padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\0000316}}
+  nav .navboton {
+    margin: auto 50px auto auto;
+    display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_header\.scss}line{font-family:\000032}}
+header img {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\000033}}
+section .seccion__uno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\000037}}
+section .seccion__dos {
+  background-image: url("../img/bg-price.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000314}}
+  section .seccion__dos .precios {
+    display: grid;
+    grid-template-columns: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000318}}
+    section .seccion__dos .precios h4 {
+      grid-column: 1/2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000323}}
+  section .seccion__dos .box {
+    padding-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000326}}
+    section .seccion__dos .box .box1, section .seccion__dos .box .box2 {
+      background-color: white;
+      width: 300px;
+      height: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000331}}
+      section .seccion__dos .box .box1 .salto, section .seccion__dos .box .box2 .salto {
+        margin-top: 150px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000031}}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #221d23;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/layout\/_footer\.scss}line{font-family:\0000312}}
+  footer .legal p {
+    display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\000032}}
+nav .boton1 {
+  border: none;
+  background-color: white;
+  width: 120px;
+  height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\000039}}
+nav .boton1:hover {
+  background-color: #f4baae;
+  color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000314}}
+nav .boton1:focus {
+  background-color: #8f9199;
+  color: white;
+  outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000320}}
+nav .boton2 {
+  border: none;
+  background-color: #2ab7ca;
+  color: white;
+  width: 100px;
+  height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000328}}
+nav .boton2:hover {
+  background-color: #b1e4eb;
+  color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000333}}
+nav .boton2:focus {
+  background-color: #8f9199;
+  color: white;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000341}}
+section .box1:hover {
+  -webkit-box-shadow: 10px 10px #8f9199;
+          box-shadow: 10px 10px #8f9199; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000345}}
+section .box2:hover {
+  -webkit-box-shadow: 10px 10px #8f9199;
+          box-shadow: 10px 10px #8f9199; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000349}}
+section .boton3 {
+  border: none;
+  background-color: #2ab7ca;
+  color: white;
+  width: 260px;
+  height: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000357}}
+section .boton3:hover {
+  background-color: #b1e4eb;
+  color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Cursos\/Desafio\%20Latam\%20Front\%20End\/PruebaStartupTreekin\/assets\/sass\/components\/_buttons\.scss}line{font-family:\0000363}}
+section .boton3:focus {
+  background-color: #8f9199;
+  color: white;
+  outline: none; }
+
+/*# sourceMappingURL=main.css.map */
